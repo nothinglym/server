@@ -1,0 +1,39 @@
+<div class="init">
+    <h4>
+        <span>猜你喜欢</span>
+        <a href="#">更多 ></a>
+    </h4>
+    <div class="shopcar">
+        <dl ng-repeat="file in arr1">
+            <dt>
+                <img ng-src={{file.imgurl}} alt="">
+            </dt>
+            <dd>
+                <h5>{{file.content}}</h5>
+                <P>{{file.color}}</P>
+                <h6><b>{{file.price}}</b><u>{{file.num}}</u></h6>
+            </dd>
+        </dl>
+    </div>
+</div>
+<div class="init two">
+    <h4>
+        <span>猜你喜欢</span>
+        <a href="#">更多 ></a>
+    </h4>
+    <div class="shopcar" id="car">
+        <dl ng-repeat="file in arr2">
+            <dt>
+                <img ng-src={{file.imgurl}} alt="">
+            </dt>
+            <dd>
+                <h5>{{file.content}}</h5>
+                <P>{{file.color}}</P>
+                <h6><b>{{file.price}}</b><u>{{file.num}}</u></h6>
+            </dd>
+        </dl>
+
+
+    </div>
+</div>
+
